@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbargeneraldiv {
+    width: 100%;
+    min-height: 10vh;
+    background-color: #44494e;
+    display: flex;
+    align-items: center;
+}
+
+.generaldiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.generala {
+    display: flex;
+    gap: 20px;
+}
+
+.contactbtn {
+    width: 100px;
+    height: 37px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 9px;
+    background-color: blueviolet;
+    color: rgb(226, 221, 221);
+    font-weight: bold;
+}

@@ -1,0 +1,95 @@
+.headersectionhome {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    .generalheadersection {
+        max-width: 60%;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+        color: white;
+        align-items: center;
+
+
+        .leftsidetextheader {
+            max-width: 50%;
+
+            h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                line-height: 70px;
+            }
+
+            h4 {
+                color: rgb(211, 207, 207);
+                line-height: 26px;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 180px;
+                height: 50px;
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 15px;
+                border: none;
+                background-color: rgba(84, 57, 218, 0.64);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+
+                &:hover {
+                    transition: 0.2s;
+                    background-color: rgba(98, 73, 223, 0.64);
+                }
+            }
+        }
+
+        .loginheader {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(194, 186, 186);
+            width: 300px;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            border: none;
+            border-radius: 20px;
+
+            input {
+
+                width: 250px;
+                height: 40px;
+                border: 1px solid rgb(175, 172, 172);
+                border-radius: 10px;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            button {
+                width: 120px;
+                height: 35px;
+                border: 1px solid black;
+                border-radius: 10px;
+                color: white;
+                border: none;
+                border: none;
+                background-color: rgb(78, 42, 179);
+                margin-top: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    transition: 0.2s;
+                    background-color: rgba(98, 73, 223, 0.64);
+                }
+            }
+        }
+    }
+}
