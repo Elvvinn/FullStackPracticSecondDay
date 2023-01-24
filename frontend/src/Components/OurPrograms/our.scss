@@ -1,0 +1,105 @@
+.ourprogramsection {
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+
+    .ourprogramstext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 1.7rem;
+        text-align: center;
+        max-width: 1200px;
+
+        .loremclass {
+            padding-top: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: gray;
+        }
+    }
+}
+
+.generaldivfotofirstprogram {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.generaldivfotofirstprogram img {
+    width: 500px;
+    height: 400px;
+    max-width: 50%;
+}
+
+.firstfotoetext {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .firstfotowe {
+        font-size: 2.2rem;
+    }
+
+    .firstfotolorem {
+        padding-top: 25px;
+        font-size: 1.4rem;
+        line-height: 30px;
+        color: gray;
+        padding-bottom: 15px;
+    }
+
+    .iconitem {
+        padding-top: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: #7971EA;
+    }
+
+}
+
+.generaldivstrive {
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+
+    .strivetext {
+
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+.strivetext h4 {
+    font-size: 2.5rem;
+}
+
+.strivetext p {
+    padding-top: 25px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: gray;
+}
+
+.generaldivstrive img {
+    width: 500px;
+    height: 400px;
+    max-width: 50%;
+}
+
+.seconditem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 13px;
+    color: #7971EA;
+}

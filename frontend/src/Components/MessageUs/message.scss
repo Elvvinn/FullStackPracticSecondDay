@@ -1,0 +1,77 @@
+.messagesection {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    .messagetext {
+        max-width: 40%;
+        margin: 0 auto;
+
+    }
+
+    .generalinput {
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .upinput {
+            max-width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+}
+
+.upinput input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 5px;
+}
+
+.subjectinp {
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 5px;
+
+}
+
+.emailinp {
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 5px;
+
+}
+
+.area {
+    width: 800px;
+    height: 200px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 5px;
+}
+
+.generalmessageusdiv {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sendbtn {
+    width: 200px;
+    height: 45px;
+    background-color: rgb(134, 18, 181);
+    border: 1 px solid;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}

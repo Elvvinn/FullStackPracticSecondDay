@@ -18,9 +18,27 @@
     justify-content: space-around;
     align-items: center;
     color: white;
+
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.linkhome {
+    text-decoration: none;
+    color: white;
+}
+
+.linkadd {
+    text-decoration: none;
+    color: white;
+}
+
+
 .generala {
+    cursor: pointer;
     display: flex;
     gap: 20px;
 }
